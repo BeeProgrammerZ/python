@@ -1,10 +1,14 @@
 # 1.py:
 # A python module that contains task:
 
+
 abc = input('enter string to count the characters:')
 count = 0
 countedDict = {}
-for i in abc:
+# lowercase or uppercase it as you wish:
+xyz = abc.lower()
+
+for i in xyz:
     if i != ' ':
         count += 1
         if i not in countedDict:
